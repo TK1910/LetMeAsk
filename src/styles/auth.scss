@@ -14,12 +14,13 @@
     }
 
     img {
-        max-width: 320px;
+        max-width: 500px;
+        max-height: 500px;
     }
 
     strong {
         font: 700 36px 'Poppins', sans-serif;
-        line-height: 42px;
+        line-height: 45px;
         margin-top: 16px;
     }
 
@@ -30,7 +31,7 @@
         color: #f8f8f8;
     }
 
-    main{
+    main {
         flex: 8;
         padding: 0 32px;
         display: flex;
@@ -49,7 +50,7 @@
 
         > img {
             align-self: center;
-            max-width: 100px;
+            max-width: 300px;
         }
 
         form {
@@ -72,8 +73,10 @@
     }
 
         .create-room {
+
             margin-top: 64px;
-            height: 50px;
+            width: 250px;
+            height: 70px;
             border-radius: 8px;
             font-weight: 500;
             background: #ea4335;
